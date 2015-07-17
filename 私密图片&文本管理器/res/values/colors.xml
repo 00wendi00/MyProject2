@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="black">#000</drawable>
+    <drawable name="red">#f00</drawable>
+    <drawable name="nothing">#00000000</drawable>
+    <drawable name="grey">#ddd</drawable>
+    <drawable name="pink">#e1c1e1</drawable>
+     <drawable name="blue">#18b4ed</drawable>
+    <drawable name="greyb">#aaa</drawable>
+    <drawable name="greyc">#eee</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <color name="white">#ffffffff</color>
+    <color name="grey1">#dddddd66</color>
+    <color name="grey">#ddd</color>
+    <color name="blue">#18b4ed</color>
+    <color name="pink">#e1c1e1</color>
+</resources>

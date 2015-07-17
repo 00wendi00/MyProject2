@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="styleBg">
+        <item name="android:background">@drawable/grey</item>
+        
+    </style>
+    
+    <style name="styleText1">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@drawable/black</item>
+    </style>
+    
+    <style name="styleText2" parent="@style/styleText1">
+        <item name="android:textColor">@drawable/guide_text_color</item>
+    </style>
+    
+    <style name="styleText1_setting" parent="@style/styleText1">
+        <item name="android:textSize">30sp</item>
+    </style>
+    
+    <style name="styleText1_editTitle" parent="@style/styleText1">
+        <item name="android:maxLength">18</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/textview_br_grey</item>
+    </style>
+    
+    <style name="styleText1_editView" parent="@style/styleText1">
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingRight">5sp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:maxLines">200</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1234</item>
+        <item name="android:background">@drawable/textview_br1</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+    
+	<style name="styleText1_passwd" parent="@style/styleText1">
+	    <item name="android:background">@drawable/textview_passwd</item>
+	</style>
+</resources>

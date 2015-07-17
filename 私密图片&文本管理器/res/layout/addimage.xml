@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linear_AddImage1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relat_AddImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/titlebar_height"
+            android:background="@drawable/grey"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/back_AddImage"
+                android:layout_width="@dimen/titlebar_height"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="0"
+                android:scaleType="fitStart"
+                android:src="@drawable/jiantou" />
+
+            <TextView
+                android:id="@+id/chosed_AddImage"
+                style="@style/styleText1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/add_AddImage"
+                style="@style/styleText1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="0sp"
+                android:paddingRight="10sp"
+                android:text="@string/add" />
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/grid_AddImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3" >
+        </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_AddImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textProgress_AddImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</FrameLayout>
